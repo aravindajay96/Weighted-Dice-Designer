@@ -4,16 +4,19 @@ Estimate how the face probabilities of a six-sided die change when material is r
 
 A fair die gives every face 16.6667 %. Drilling a hole or loading a lead ball moves the centre of gravity (CG), and that bias shows up in which face lands on top.
 
-![Die 1 render](die1_side_hole.png)
-![Die 2 render](die2_accurate.png)
-## Die designs
-
 Opposite faces always add up to 7: **1-6, 2-5, 3-4**.
 
 | Design | Description |
 |--------|-------------|
 | **Type 1 – off-centre hole** | A cylindrical hole (default Ø 2 mm) runs from face 1 to face 6, offset toward face 4. Removing material near face 4 shifts the CG toward face 3. |
+
+![Die 1 render](die1_side_hole.png)
+
 | **Type 2 – diagonal cavity + lead ball** | A cavity runs along the space diagonal from the corner touching faces **1, 2, 4** to the corner touching faces **3, 6, 5**. It holds a 2 g lead ball that can sit anywhere along it. |
+
+![Die 2 render](die2_accurate.png)
+
+## Die designs
 
 ## How the probabilities are computed
 
