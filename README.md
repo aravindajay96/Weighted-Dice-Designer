@@ -4,7 +4,9 @@ Estimate how the face probabilities of a six-sided die change when material is r
 
 A fair die gives every face 16.6667 %. Drilling a hole or loading a lead ball moves the centre of gravity (CG), and that bias shows up in which face lands on top.
 
-![Die 2 render](images/die2_accurate.png)
+![Die 2 render]
+(die1_side_hole.png)
+(die2_accurate.png)
 
 ## Die designs
 
